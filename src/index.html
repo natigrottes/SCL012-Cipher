@@ -2,13 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>"Conversemos"</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1>Hola!</h1>
+      <h2>¿Necesitas ayuda?</h2>
+      <p id="instruction">Este es un nuevo sistema de mensajería cifrada, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento de ética, brindando de esta forma mayor confidencialidad y confianza para los colaboradores.</p>
+      
+      
+      <!--Caja de texto ingresado por usario (valor)-->
+      <form><textarea id="textUser" placeholder="Escribe aquí tu mensaje" rows="4" cols="50"></textarea> </form>
+      
+      
+      <!--Texto para elegir offset-->
+        <p id=textSecurity >Elige el nivel de seguridad de tu mensaje, donde 5 es seguro y 10 es muy seguro.</p>
+        <form><input id= numberSecurity type="number" min = "5" max = "10" value="" placeholder="Nivel de seguridad">  </form>
+      
+      
+      <!--Botón para enviar cifrar--> 
+        <form><input type="button"  value="Cifrar" id="btnCipherEncode">  </form>
+      
+      
+        <!--Caja de texto cifrado inicial-->
+      <form><textarea id="boxTextEncode" placeholder="Aquí verás tu código cifrado" rows="4" cols="50"></textarea></form>
+      
+      
+      <!--Botón para enviar mensaje-->
+      <form><input type="button" value="Enviar mensaje" id="buttonSend">  </form>
+
+
     </div>
+
+
+    <div id="secondPage">
+
+      <h1>Hola!</h1>
+      <h2>¿Necesitas ayuda?</h2>
+      <p id="instruction">Este es un nuevo sistema de mensajería cifrada, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento de ética, brindando de esta forma mayor confidencialidad y confianza para los colaboradores.</p>
+    
+    <!--Caja para texto obtenido en cifrado pagina 1-->
+    <form><textarea id="boxTextEncodeTwo"  rows="4" cols="50"></textarea> </form>
+    
+    
+    <!--Texto para elegir offset-->
+    <p id=textSecurity >Elige el nivel de seguridad de tu mensaje, donde 5 es seguro y 10 es muy seguro.</p>
+    <form><input id= numberSecurityTwo type="number" min = "5" max = "10" value="" placeholder="Nivel de seguridad">  </form>
+    
+    
+    <!--Botón para enviar descifrar-->
+      <form><input type="button" value="Descifrar"  id="btnCipherDecode">  </form>
+    
+    
+    <!--Caja de texto descifrado-->
+    <form><textarea id="boxTextDecode" placeholder="Aquí verás tu código traducido" rows="4" cols="50"></textarea></form>
+    
+    
+      <!--Botón para responder mensaje-->
+    <form><input type="button" value="Responder mensaje" id="buttonAnswer">  </form>
+    
+    
+    </div>
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
