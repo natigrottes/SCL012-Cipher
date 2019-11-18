@@ -1,16 +1,13 @@
 body {font-family: 'Rubik', sans-serif;
-}
-
-body {
-    background-image: url(pictures/fondo1.jpg);
+    
 }
 
 #root{
     display:block;
 }
+
 #secondPage{
-    display:none;
-    
+    display:none;   
 } 
 
 h1 {
@@ -26,9 +23,7 @@ h1 {
     font-size: 36px;
     line-height: 43px;
     
-    color: rgba(40, 188, 198, 0.92);
-    
-    
+    color: rgba(40, 188, 198, 0.92);  
 }
 
 h2 {
@@ -47,8 +42,7 @@ h2 {
     color: #585858;
 }
 
-#instruction {
-               
+#instruction {            
     position: absolute;
     width: 598px;
     height: 77px;
@@ -65,12 +59,9 @@ h2 {
     align-items: center;
     text-align: justify;
     
-
     color: #FFFFFF;
-
-    
+  
     /* cuadro color */
-
     position: absolute;
     width: 595px;
     height: 77px;  
@@ -82,22 +73,22 @@ h2 {
 
 }
 
-#textUser {
+.firstFrame {
     position: absolute;
     width: 552px;
     height: 34px;
     left: 467px;
     top: 220px;
-    padding: 15px;
-    resize: none;
-    
+
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     text-align: justify;
-    
+    padding: 15px; 
+    resize: none;
+
     color: #585858;
 
     /* cuadro de texto */
@@ -121,8 +112,6 @@ h2 {
     left: 442px;
     top: 363px;
 
-
-
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -134,7 +123,7 @@ h2 {
 
 }
 
-#numberSecurity{
+.number{
     position: absolute;
     width: 12px;
     height: 24px;
@@ -164,7 +153,6 @@ h2 {
     box-sizing: border-box;
     border-radius: 11px;
 
-
 }
     
 #btnCipherEncode {
@@ -186,9 +174,6 @@ h2 {
 
     color: #FFFFFF;
 
-    border-radius: 5px;
-
-
     /* cuadro contenedor texto */
     position: absolute;
     width: 222px;
@@ -196,13 +181,11 @@ h2 {
     left: 821px;
     top: 366px;
    
-
     background: #585858;
     border-radius: 5px;
 }
 
-
-#boxTextEncode{
+.secondFrame {
     position: absolute;
     width: 552px;
     height: 34px;
@@ -211,7 +194,6 @@ h2 {
     padding: 15px; 
     resize: none;
     
-
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -220,7 +202,6 @@ h2 {
     text-align: justify;
 
     color: #585858;
-
 
     /* cuadro de texto */
     position: absolute;
@@ -266,13 +247,65 @@ h2 {
 
 }
 
-
-
-
-/* iconos y sus bloques de color , poner en otro color 
-palabras de un parrafo
-poner imagen de fondo en su defecto */
-
-
 /* secondPage */
 
+#btnCipherDecode {
+    position: absolute;
+    width: 222px;
+    height: 22.43px;
+    left: 821px;
+    top: 376.28px;
+    padding: 0em 3.5em;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    /* cuadro contenedor texto */
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 821px;
+    top: 366px;
+   
+    background: #585858;
+    border-radius: 5px;
+}
+
+#buttonAnswer {
+    position: absolute;
+    width: 222px;
+    height: 51px;
+    left: 821px;
+    top: 594px;
+    padding: 0em 0.8em;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    /* cuadro contenedor texto */
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 821px;
+    top: 597px;
+
+    background: #585858;
+    border-radius: 5px;
+
+}

@@ -16,11 +16,11 @@ for (let i=0; i < newText.length; i++) {
   } else {
    result += String.fromCharCode(textEncode);
   }
-         
-document.getElementById ("boxTextEncode").innerHTML = result;
-document.getElementById ("boxTextEncodeTwo").innerHTML = result;    
-  }      
+        
+ }  
+ return result;    
 },
+
 
 
 decode: (newTextTwo, numberOffsetTwo) => {
@@ -31,17 +31,17 @@ for (let i=0; i < newTextTwo.length; i++){
   if (textDecode >= 65 && textDecode <=90) {
     let characterAsciiDecode = (textDecode + 65 - numberOffsetTwo) % 26  + 65
     console.log ('characterAsciiDecode',characterAsciiDecode)
-  let textAsciiDecode = String.fromCharCode(characterAsciiDecode);
+   let textAsciiDecode = String.fromCharCode(characterAsciiDecode);
     // console.log('textAsciiDecode', textAsciiDEcode)
     resultTwo += textAsciiDecode
     //  console.log (resultTwo)
   } else {
     resultTwo += String.fromCharCode(textDecode);
   }
-  document.getElementById ("boxTextDecode").innerHTML = resultTwo;
-
+  
    }
-
+   return resultTwo;
   } 
-  };
+   
+};
 

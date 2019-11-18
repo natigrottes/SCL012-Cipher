@@ -5,7 +5,11 @@ btnEncode.addEventListener ("click", () => {
   const newText= textSave.toUpperCase();
   const numberOffset= parseInt(numberSave);
   // console.log(newText)
-  window.cipher.encode(newText, numberOffset);
+
+  const printEncode= window.cipher.encode(newText, numberOffset);
+  document.getElementById ("boxTextEncode").innerHTML=printEncode;
+  document.getElementById ("boxTextEncodeTwo").innerHTML = printEncode;
+  
 });
 
 
@@ -16,9 +20,11 @@ btnDecode.addEventListener ("click", () => {
   const newTextTwo= textSaveTwo.toUpperCase();
   const numberOffsetTwo= parseInt(numberSaveTwo);
   // console.log('newTextTwo',newTextTwo)
-  window.cipher.decode(newTextTwo, numberOffsetTwo);
-});
 
+  const printDecode=window.cipher.decode(newTextTwo, numberOffsetTwo);
+  document.getElementById ("boxTextDecode").innerHTML = printDecode;
+
+});
 
 
 const button = document.getElementById ("buttonSend");
@@ -36,4 +42,6 @@ buttonTwo.addEventListener ("click", ()  =>  {
    document.getElementById ("secondPage").style.display = "none";
    document.getElementById("textUser").value = "";
    document.getElementById("boxTextEncode").value = "";
+   location.reload();
 })
+
