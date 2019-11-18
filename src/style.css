@@ -1,6 +1,10 @@
 body {font-family: 'Rubik', sans-serif;
 }
- 
+
+body {
+    background-image: url(pictures/fondo1.jpg);
+}
+
 #root{
     display:block;
 }
@@ -8,3 +12,267 @@ body {font-family: 'Rubik', sans-serif;
     display:none;
     
 } 
+
+h1 {
+    position: absolute;
+    width: 385px;
+    height: 50px;
+    left: 398px;
+    top: 2px;
+    
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: rgba(40, 188, 198, 0.92);
+    
+    
+}
+
+h2 {
+    position: absolute;
+    width: 385px;
+    height: 45px;
+    left: 397px;
+    top: 55px;
+
+    font-family: rubik;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #585858;
+}
+
+#instruction {
+               
+    position: absolute;
+    width: 598px;
+    height: 77px;
+    left: 418px;
+    top: 104px;
+    padding: 0em 2em;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    
+
+    color: #FFFFFF;
+
+    
+    /* cuadro color */
+
+    position: absolute;
+    width: 595px;
+    height: 77px;  
+    left: 400px;
+    top: 98px;
+
+    background: rgba(40, 188, 198, 0.92);
+    border-radius: 10px;
+
+}
+
+#textUser {
+    position: absolute;
+    width: 552px;
+    height: 34px;
+    left: 467px;
+    top: 220px;
+    padding: 15px;
+    resize: none;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    
+    color: #585858;
+
+    /* cuadro de texto */
+    position: absolute;
+    width: 600px;
+    height: 146px;
+    left: 442px;
+    top: 198px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 188, 198, 0.92);
+    box-sizing: border-box;
+    border-radius: 11px;
+   
+}
+/*  Ver como cambiar el color a unas palabras */
+#textSecurity {  
+    position: absolute;
+    width: 232px;
+    height: 26px; 
+    left: 442px;
+    top: 363px;
+
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+
+    color: #585858;
+
+}
+
+#numberSecurity{
+    position: absolute;
+    width: 12px;
+    height: 24px;
+    left: 734px;
+    top: 375px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #585858;
+
+    /* cuadro de numberSecurity */
+    position: absolute;
+    width: 50px;
+    height: 43px;
+    left: 710px;
+    top: 366px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 188, 198, 0.92);
+    box-sizing: border-box;
+    border-radius: 11px;
+
+
+}
+    
+#btnCipherEncode {
+    position: absolute;
+    width: 222px;
+    height: 22.43px;
+    left: 821px;
+    top: 376.28px;
+    padding: 0em 4em;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border-radius: 5px;
+
+
+    /* cuadro contenedor texto */
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 821px;
+    top: 366px;
+   
+
+    background: #585858;
+    border-radius: 5px;
+}
+
+
+#boxTextEncode{
+    position: absolute;
+    width: 552px;
+    height: 34px;
+    left: 467px;
+    top:  454px;
+    padding: 15px; 
+    resize: none;
+    
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+
+    color: #585858;
+
+
+    /* cuadro de texto */
+    position: absolute;
+    width: 600px;
+    height: 146px;
+    left: 442px;
+    top: 431px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 188, 198, 0.92);
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+
+#buttonSend {
+    position: absolute;
+    width: 222px;
+    height: 51px;
+    left: 821px;
+    top: 594px;
+    padding: 0em 2em;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    /* cuadro contenedor texto */
+    position: absolute;
+    width: 222px;
+    height: 43px;
+    left: 821px;
+    top: 597px;
+
+    background: #585858;
+    border-radius: 5px;
+
+}
+
+
+
+
+/* iconos y sus bloques de color , poner en otro color 
+palabras de un parrafo
+poner imagen de fondo en su defecto */
+
+
+/* secondPage */
+
