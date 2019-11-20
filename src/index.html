@@ -5,12 +5,18 @@
     <title>"Conversemos"</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href= "IMG/FAVICON.ico">
   </head>
   <body>
     <div id="root">
+      <img src="IMG/EYEOPEN.png" id="eyeOpen">
+      <img src="IMG/EYECLOSE.png" id="eyeClose">
+      <img src="IMG/CANDADOCLOSE.png" id="candadoClose">
+      <img src="IMG/CORREO.png" class="correo">
+      <img src="IMG/LOGOAERO.png" class="logoAero">
       <h1><b>Hola!</b></h1>
       <h2>¿Necesitas ayuda?</h2>
-      <p id="instruction">Este es un nuevo sistema de mensajería cifrada, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento de ética, brindando de esta forma mayor confidencialidad y confianza para los colaboradores.</p>
+      <p class="instruction" id="instruction">Este es un nuevo sistema de mensajería cifrada, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento de ética, brindando de esta forma mayor confidencialidad y confianza para los colaboradores.</p>
       
       
       <!--Caja de texto ingresado por usuario (valor)-->
@@ -18,7 +24,7 @@
     
       
       <!--Texto para elegir offset-->
-        <p id=textSecurity >Elige el nivel de seguridad de tu mensaje, donde <strong>5</strong> es <span>seguro</span> y <strong>10</strong> es <span>muy seguro</span>.</p>
+        <p class="textSecurity" id="textSecurity" >Elige el nivel de seguridad de tu mensaje, donde <strong>5</strong> es <span>seguro</span> y <strong>10</strong> es <span>muy seguro</span>.</p>
         <form><input class="number" id= "numberSecurity" type="number" min = "5" max = "10" value="" placeholder="5">  </form>
       
       
@@ -32,23 +38,28 @@
       
       <!--Botón para enviar mensaje-->
       <form><input type="button" value="Enviar mensaje" id="buttonSend">  </form>
-
+    
 
     </div>
 
 
     <div id="secondPage">
-
+      <img src="IMG/EYECLOSE.png" id="eyeClose2">
+      <img src="IMG/EYEOPEN.png" id="eyeOpen2">
+      <img src="IMG/CANDADOOPEN.png" id="candadoOpen">
+      <img src="IMG/CORREO.png" class="correo">
+      <img src="IMG/LOGOAERO.png" class="logoAero">
+    
       <h1>Hola!</h1>
       <h2>¿Necesitas ayuda?</h2>
-      <p id="instruction">Este es un nuevo sistema de mensajería cifrada, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento de ética, brindando de esta forma mayor confidencialidad y confianza para los colaboradores.</p>
+      <p class="instruction" id="instruction2">Este es un nuevo sistema de mensajería cifrada, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento de ética, brindando de esta forma mayor confidencialidad y confianza para los colaboradores.</p>
     
     <!--Caja para texto obtenido en cifrado pagina 1-->
     <form><textarea  class= "firstFrame" id="boxTextEncodeTwo"  rows="4" cols="50"></textarea> </form>
     
     
     <!--Texto para elegir offset-->
-    <p id=textSecurity >Elige el nivel de seguridad de tu mensaje, donde <strong>5</strong>  es <span>seguro</span> y <strong>10</strong> es <span>muy seguro</span>.</p>
+    <p class="textSecurity" id="textSecurity2" >Elige el nivel de seguridad de tu mensaje, donde <strong>5</strong>  es <span>seguro</span> y <strong>10</strong> es <span>muy seguro</span>.</p>
     <form><input class="number" id= "numberSecurityTwo" type="number" min = "5" max = "10" value="" placeholder="5">  </form>
     
     

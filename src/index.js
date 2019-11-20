@@ -1,12 +1,12 @@
 const btnEncode = document.getElementById ("btnCipherEncode");
 btnEncode.addEventListener ("click", () => {
-  const textSave = document.getElementById ("textUser").value;
-  const numberSave = document.getElementById ("numberSecurity").value;
-  const newText= textSave.toUpperCase();
-  const numberOffset= parseInt(numberSave);
+  let textSave = document.getElementById ("textUser").value;
+  let numberSave = document.getElementById ("numberSecurity").value;
+  let newText= textSave.toUpperCase();
+  let numberOffset= parseInt(numberSave);
   // console.log(newText)
 
-  const printEncode= window.cipher.encode(newText, numberOffset);
+  let printEncode= window.cipher.encode(newText, numberOffset);
   document.getElementById ("boxTextEncode").innerHTML=printEncode;
   document.getElementById ("boxTextEncodeTwo").innerHTML = printEncode;
   
@@ -15,13 +15,13 @@ btnEncode.addEventListener ("click", () => {
 
 const btnDecode = document.getElementById ("btnCipherDecode");
 btnDecode.addEventListener ("click", () => {
-  const textSaveTwo = document.getElementById ("boxTextEncodeTwo").value;
-  const numberSaveTwo = document.getElementById ("numberSecurityTwo").value;
-  const newTextTwo= textSaveTwo.toUpperCase();
-  const numberOffsetTwo= parseInt(numberSaveTwo);
+  let textSaveTwo = document.getElementById ("boxTextEncodeTwo").value;
+  let numberSaveTwo = document.getElementById ("numberSecurityTwo").value;
+  let newTextTwo= textSaveTwo.toUpperCase();
+  let numberOffsetTwo= parseInt(numberSaveTwo);
   // console.log('newTextTwo',newTextTwo)
 
-  const printDecode=window.cipher.decode(newTextTwo, numberOffsetTwo);
+  let printDecode=window.cipher.decode(newTextTwo, numberOffsetTwo);
   document.getElementById ("boxTextDecode").innerHTML = printDecode;
 
 });
