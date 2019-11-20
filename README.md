@@ -9,14 +9,14 @@ Este nuevo canal permitirá a ustedes, nuestros colaboradores, expresar molestia
 Este es un nuevo sistema de mensajería cifrado, que sólo podrá ser visto por la persona que lo emite y quien lo recibe en el departamento antes mencionado, brindando de esta forma mayor confidencialidad y confianza a la persona que necesite hacer uso del canal".
 ##### (Introducción a la página en la plataforma virtual de la empresa)
 ### ¿Conversemos?
-Es un proyecto para **Aerolíneas Pacific Viajemos Seguros**, quienes están buscando diseñar un espacio de ayuda entre sus colaboradores y el canal de ética de RR.HH. De acuerdo a esto se indentifica la necesidad de poder expresar de una manera fluida, confidencial y sin ser particularmente presencial, las problemáticas, denuncias y/o molestias que ellos consideren pertinentes.
+Es un proyecto para **Aerolíneas Pacific Viajemos Seguros**, quienes están buscando diseñar un espacio de ayuda entre sus colaboradores y el canal de ética de RR.HH. De acuerdo a esto se indentifica la necesidad de poder expresar de una manera fluida, confidencial y sin ser particularmente presencial, las problemáticas, denuncias y/o molestias que los aqueja.
 
-Para cumplir con el objetivo se trabaja en una página a modo de pestaña, que estará integrada en una plataforma virtual que manejan los colaboradores de la empresa, por lo tanto, se busca que sea coherente con la línea gráfica y funcional de ella, para generar cercanía con el lenguaje ya internalizado por los usuarios.
+Para cumplir con el objetivo, se trabaja en una página a modo de pestaña, que estará integrada en una plataforma virtual que manejan los colaboradores dentro de la empresa, por lo tanto, se busca que sea coherente con la línea gráfica y funcional de dicha plataforma, para generar cercanía con el lenguaje ya internalizado por los usuarios.
 
-Por otro lado, una de las cosas que buscan los trabajadores, nuestros usuarios, es que sea lo más confidencial posible, es de acuerdo a esto que se decide emplear un método de cifrado, lo que significa que cada mensaje enviado por uno de los colaboradores será encriprado y solo podrá ver el contenido real quien recibe, en este caso el profesional en RR.HH. El mecanismo funciona para ambos lados de la misma forma, por lo tanto, el emisor también se convierte en receptor teniendo que traducir el mensaje que le han enviado como respuesta.
+Por otro lado, una de las cosas que buscan los trabajadores, nuestros usuarios, es que sea lo más confidencial posible, es de acuerdo a esto que se decide emplear un método de cifrado, lo que significa que cada mensaje enviado por uno de los colaboradores será encriptado y solo podrá ver el contenido real quien recibe, en este caso el profesional en RR.HH. El mecanismo funciona para ambos lados de la misma forma, por lo tanto, el emisor también se convierte en receptor teniendo que traducir el mensaje que le han enviado como respuesta.
 
 ## Cifrado César
-El método que se usa es el cifrado César, uno de los más conocidos y usados. Esta técnica es una de las mas simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+El método que se usa es el cifrado César, uno de los más conocidos y utilizados. Esta técnica es una de las mas simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra en un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
 Por ejemplo, si se usa un desplazamiento de 3 posiciones:
 
@@ -33,10 +33,10 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 Para comenzar a proponer soluciones a la problemática identificada es necesario conocer a quién está dirigido, qué se quiere lograr y cómo se va a realizar.
 
 #### ¿Quiénes son los usuarios?
-Los usuarios del producto son clientes internos de la empresa donde ha sido díficil establecer una comunicación transparente entre jerarquías. El cliente interno tiene necesidades, tiene malestares e incluso denuncias de mayor impacto que no se pueden expresar al azar. Actualmente no existen herramientas efectivas y eso se traduce en más malestar y frustación, es de acuerdo a todos esos antecedentes que resulta ser una necesidad crear una instancia para que ellos de manera secreta puedan comunicarse con los profesionales que corresponde.
+Los usuarios del producto son clientes internos de la empresa donde ha sido díficil establecer una comunicación transparente entre jerarquías. El cliente interno tiene necesidades, tiene malestares e incluso denuncias de mayor impacto que no se pueden expresar a terceros. Actualmente no existen herramientas efectivas, y eso se traduce en un malestar y frustación adicional, es de acuerdo a todos esos antecedentes que resulta ser de primera necesidad, crear una instancia para que ellos puedan comunicarse con los profesionales que corresponde.
 
 #### ¿Qué se quiere lograr?
-Que el producto sea una herramienta de comunición entre los usuarios y el departamento de RR.HH. de la empresa. Logrando relaciones mucho más fluidas y dando apoyo a quienes lo necesiten. **¿Conversemos?** viene a dar una mano amiga a quien la necesita, dentro de un ambiente de confianza y seguridad. 
+Que el producto sea una herramienta de comunicación entre los usuarios y el departamento de RR.HH. de la empresa. Logrando relaciones mucho más fluidas y dando apoyo a quienes lo necesiten. **¿Conversemos?** viene a dar una mano amiga a quien la necesita, dentro de un ambiente de confianza y seguridad. 
 
 #### ¿Cómo se logrará?
 A través del diseño de un producto que se basa en un flujo de trabajo reconocido y familiar para los usuarios. Se propone un lenguaje claro y génerico que no sea complejo, para lograr que las acciones se lleven a cabo autónamente.
@@ -110,4 +110,4 @@ Para verlo pincha [PROTOTIPO](https://natigrottes.github.io/SCL012-Cipher/src/in
 
 ## Observaciones
 
-Considero que queda pendiente el testeo con los usuarios reales, en primera instancia recibí feedback de mis compañeras y modifiqué algunas cosas en base el, es necesario que el prototipo sea probado por personas que no conocen de qué se trata, para saber si está cumpliendo con los obejtivos básicos de comunicación. El proceso de iteración es fundamental para ir depurando y concretar.
+Considero que queda pendiente el testeo con los usuarios reales, en primera instancia recibí feedback de mis compañeras y modifiqué algunas cosas en base a eso, sin embargo es  necesario que el prototipo sea probado por personas que no conocen de qué se trata, para saber si está cumpliendo con los objetivos básicos de comunicación. El proceso de iteración es fundamental para ir depurando y concretar.
