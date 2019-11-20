@@ -7,7 +7,7 @@ for (let i=0; i < newText.length; i++) {
 //  console.log (textEncode)
  
   if (textEncode >= 65 && textEncode <=90) {
-   let characterAsciiEncode = (textEncode - 65 + numberOffset) % 26  + 65
+   let characterAsciiEncode = (textEncode - 65 + numberOffset) % 26  + 65; 
    // console.log ('characterAsciiEncode',characterAsciiEncode)
     
    let textAsciiEncode = String.fromCharCode(characterAsciiEncode);
